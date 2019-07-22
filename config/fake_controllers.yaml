@@ -1,0 +1,6 @@
+controller_list:
+  - name: fake_arm_controller
+    joints:
+      - odom_to_base_link
+      - link1_to_static_link1
+      - link1_tip_to_link2

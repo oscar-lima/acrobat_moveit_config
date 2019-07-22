@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: pybullet_ros
+    relative_path: common/test/urdf/acrobat_robot/acrobat_robot.urdf.xacro
+    xacro_args: "--inorder "
+  SRDF:
+    relative_path: config/acrobat.srdf
+  CONFIG:
+    author_name: Oscar Lima
+    author_email: oscar.lima@dfki.de
+    generated_timestamp: 1563833551
